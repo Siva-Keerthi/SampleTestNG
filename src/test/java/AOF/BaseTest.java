@@ -21,7 +21,7 @@ public class BaseTest
 {
 public static ThreadLocal<RemoteWebDriver> dr = new ThreadLocal<RemoteWebDriver>();
 
-@BeforeTest
+@BeforeMethod
 //Parameter will get browser from testng.xml on which browser test to run
 @Parameters("myBrowser")
 public void beforeClass(String myBrowser) throws MalformedURLException{
@@ -57,7 +57,7 @@ public void setWebDriver(RemoteWebDriver driver) {
     dr.set(driver);
 }
 
-@AfterClass
+@AfterMethod
 public void afterClass(){
     getDriver().quit();
     dr.set(null);
