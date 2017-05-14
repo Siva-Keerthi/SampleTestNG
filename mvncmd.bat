@@ -1,0 +1,1 @@
+C:\Users\Sivakumar\workspace\AOF_Tool\SampleTestNG>mvn clean test -DsuiteXmlFile=testng.xml

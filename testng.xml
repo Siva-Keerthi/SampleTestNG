@@ -4,7 +4,7 @@
         <parameter name="myBrowser" value="chrome"/>
         <classes>
             <class name="AOF.TestParallel" />
-            <class name="AOF.TestParallel" />
+            <class name="AOF.TestParallel2" />
         </classes>
     </test>
  

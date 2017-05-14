@@ -5,7 +5,7 @@ import java.net.MalformedURLException;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class TestParallel extends BaseTest {
+public class TestParallel2 extends BaseTest {
 	@Test
     public void test_01() throws InterruptedException, MalformedURLException{
         try{
