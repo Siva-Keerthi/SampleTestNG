@@ -1,4 +1,4 @@
-Step to Run:
+Steps to Run:
 
 Download the Repo.
 
